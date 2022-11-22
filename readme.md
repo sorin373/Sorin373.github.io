@@ -1,11 +1,11 @@
-Intalling the game:
+<font size = "10">**Installing the game (Windows only)**</font>
+<font size = "5">
+- Download the zip file from [sorin373.github.io](https://sorin373.github.io/)
+- Extract the files on your desktop
+- Open the folder entitled **Different Breed**
+- Run the file **Different Breed.exe** If a window pops up from the Windows antivirus (because the game is not officialy published and not a verified game the antivirus promps a warning) all you need to do is to click **More info** and then click **Run anyway**.
+<br>
+![Tux, the Linux mascot](/Readme_photos/photo1.png)
 
-1. Download the zip file from https://sorin373.github.io/
+</font>
 
-2. Extract the files on your desktop
-
-3. Open the folder entitled Different Breed
-
-4. Run the file Different Breed.exe
-
-5. If a window pops up from the Windows antivirus (because the game is not officialy published and not a verified game the antivirus promps a warning) all you need to do is to click More info and then click Run anyway.
