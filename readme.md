@@ -5,6 +5,6 @@
 - Open the folder entitled **Different Breed**
 - Run the file **Different Breed.exe** If a window pops up from the Windows antivirus (because the game is not officialy published and not a verified game the antivirus promps a warning) all you need to do is to click **More info** and then click **Run anyway**.
 <br>
-![Screenshot](Readme_photos/photo1.png)
+
 </font>
 
