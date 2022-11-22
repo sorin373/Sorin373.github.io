@@ -1,5 +1,5 @@
 * {
-    box-sizing: border-box
+    box-sizing: border-box;
 }
 
 /* Slideshow container */
@@ -8,6 +8,8 @@
     position: relative;
     margin: 0rem 0rem 0rem 0rem;
     width: 50rem;
+    height: 10rem;
+
 }
 
 /* Hide the images by default */
