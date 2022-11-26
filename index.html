@@ -395,7 +395,7 @@
                 }
 
                 .videoGermany iframe {
-                    height: 150%;
+                    height: 100;
                     width: 100%;
                 }
             }
@@ -486,6 +486,99 @@
             }
         </script>
 
+        <div class="playButton">
+            <button role="button" onclick="window.location.href  = '/Game_WebVersion/Game.html'">Play</button>
+        </div>
+
+        <style>
+            .playButton {
+                margin: 0;
+                padding: 0;
+                width: 100%;
+                height: fit-content;
+            }
+
+            .playButton button {
+                align-items: center;
+                background-color: rgb(234, 191, 138);
+                border: 2px solid #111;
+                border-radius: 8px;
+                box-sizing: border-box;
+                color: #111;
+                cursor: pointer;
+                display: flex;
+                font-family: fantasy;
+                font-size: 45pt;
+                height: 48px;
+                justify-content: center;
+                line-height: 24px;
+                max-width: 100%;
+                padding: 0 25px;
+                position: relative;
+                text-align: center;
+                text-decoration: none;
+                user-select: none;
+                -webkit-user-select: none;
+                touch-action: manipulation;
+                margin: 1rem;
+                margin-top: 0rem;
+                margin-left: 0rem;
+                margin-bottom: 2rem;
+                width: 100%;
+                height: 5rem;
+                font-weight: 500;
+                letter-spacing: 10px;
+            }
+
+            .playButton button::after {
+                background-color: #111;
+                border-radius: 8px;
+                content: "";
+                display: block;
+                height: 80px;
+                left: 0;
+                width: 100%;
+                position: absolute;
+                top: -2px;
+                transform: translate(8px, 8px);
+                transition: transform .2s ease-out;
+                z-index: -1;
+            }
+
+            .playButton button:hover:after {
+                transform: translate(0, 0);
+            }
+
+            .playButton button:active {
+                background-color: #ffdeda;
+                outline: 0;
+            }
+
+            .playButton button:hover {
+                outline: 0;
+            }
+
+            @media (min-width: 768px) {
+                .playButton button {
+                    padding: 0 40px;
+                }
+            }
+
+            /*--------------------Phone resolution--------------------*/
+            @media only screen and (max-width: 768px) and (max-width: 992px) {
+                .playButton {
+                    display: none;
+                }
+            }
+
+            /*--------------------Tablet resolution--------------------*/
+            @media only screen and (min-width: 600px) and (max-width: 992px) {
+                .playButton {
+                    display: none;
+                }
+            }
+        </style>
+
         <div id="credits">
             <div class="column" style="padding-bottom: 0;">
                 <h1 style="border-top-left-radius: 5px; border-top-right-radius: 5px;">Game Credits</h1>
@@ -504,7 +597,7 @@
                 <div class="contacts" style="padding-top: 0;">
                     <img src="/Screenshots/Github.png" width="50px" height="50px" alt=""> &nbsp;&nbsp;
                     <a href="https:github.com/Sorin373/Sorin373.github.io" target="_blank"
-                        style="margin-bottom: 2.5rem;">GameJam2022 - Repository</a>
+                        style="margin-bottom: 2.5rem;">GameJam2022_Repository</a>
                 </div>
 
             </div>
