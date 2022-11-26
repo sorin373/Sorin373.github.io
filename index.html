@@ -397,6 +397,7 @@
                 .videoGermany iframe {
                     height: 100;
                     width: 100%;
+                    overflow: hidden;
                 }
             }
 
@@ -464,6 +465,39 @@
                     margin-top: 4rem;
                 }
             }
+
+            /*--------------------15 inch monitor--------------------*/
+            @media only screen and (max-width: 1750px) and (height: 842px) {
+                .gameInfo {
+                    margin-bottom: 12rem;
+                }
+
+                #gameDownloadPanel {
+                    position: relative;
+                    display: block;
+                    width: fit-content;
+                    height: fit-content;
+                    margin-right: 1rem;
+                    margin-bottom: 0;
+                    overflow: visible;
+                }
+
+                #gameDownloadPanel p {
+                    text-indent: 1rem;
+                    padding-right: 1rem;
+                    padding-left: 1rem;
+                    font-size: 12pt;
+                }
+
+                .videoGermany iframe {
+                    display: block;
+                    position: absolute;
+                    max-width: 70%;
+                    height: auto;
+                }
+            }
+
+            
         </style>
 
         <script type="text/javascript">
@@ -577,6 +611,13 @@
                     display: none;
                 }
             }
+
+             /*--------------------15 inch monitor--------------------*/
+             @media only screen and (max-width: 1750px) and (height: 842px) {
+                .playButton {
+                    margin-top: 0;
+                }
+             }
         </style>
 
         <div id="credits">
@@ -774,6 +815,9 @@
                 padding: 1rem;
             }
         }
+
+        /*--------------------15 inch monitor--------------------*/
+        @media only screen and (min-width: 1000px) and (height: 842px) {}
     </style>
 
     <div id="footer">
