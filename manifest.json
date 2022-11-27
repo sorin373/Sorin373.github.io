@@ -1,0 +1,9 @@
+{
+    "$schema": "https://json.schemastore.org/web-manifest-combined.json",
+    "orientation": "portrait-primary",
+    "display": "standalone",
+    "description": "Website",
+    "name": "Different Breed",
+    "short_name": "DIfferent Breed",
+    "background_color": "#fff"
+}
