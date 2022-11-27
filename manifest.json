@@ -1,6 +1,6 @@
 {
     "$schema": "https://json.schemastore.org/web-manifest-combined.json",
-    "orientation": "portrait-primary",
+    "orientation": "portrait",
     "display": "standalone",
     "description": "Website",
     "name": "Different Breed",

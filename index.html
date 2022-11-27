@@ -358,14 +358,14 @@
                 }
             }*/
 
-            /*--------------------Tablet resolution--------------------*/
+            /*--------------------Tablet resolution--------------------
             @media only screen and (min-width: 600px) and (max-width: 992px) {
                 .slideshow-container {
                     width: 95.7%;
                     height: 100%;
                     margin-left: 1rem;
                 }
-            }
+            }*/
 
             /*--------------------Large monitors--------------------*/
             @media only screen and (min-width: 1200px) and (min-height: 1000px) {
@@ -418,7 +418,7 @@
                 }
             }
 
-            /*--------------------Tablet resolution--------------------*/
+            /*--------------------Tablet resolution--------------------
             @media only screen and (min-width: 700px) and (max-width: 992px) {
                 .gameInfo {
                     display: block;
@@ -444,7 +444,7 @@
                     height: 150%;
                     width: 100%;
                 }
-            }
+            }*/
 
             /*--------------------Large monitors--------------------*/
             @media only screen and (min-width: 1200px) and (min-height: 1000px) {
@@ -606,12 +606,12 @@
                 }
             }*/
 
-            /*--------------------Tablet resolution--------------------*/
+            /*--------------------Tablet resolution--------------------
             @media only screen and (min-width: 600px) and (max-width: 992px) {
                 .playButton {
                     display: none;
                 }
-            }
+            }*/
 
             /*--------------------15 inch monitor--------------------*/
             @media only screen and (min-width: 1496px) and (max-height: 700px) {
@@ -638,7 +638,7 @@
 
                 <div class="contacts" style="padding-top: 0;">
                     <img src="/Screenshots/Github.png" width="50px" height="50px" alt=""> &nbsp;&nbsp;
-                    <a href="https:github.com/Sorin373/Sorin373.github.io" target="_blank"
+                    <a href="https://github.com/Sorin373/Sorin373.github.io" target="_blank"
                         style="margin-bottom: 2.5rem;">GameJam2022_Repository</a>
                 </div>
 
@@ -755,7 +755,7 @@
             }
         }
 
-        /*--------------------Tablet resolution--------------------*/
+        /*--------------------Tablet resolution--------------------
         @media only screen and (min-width: 600px) and (max-width: 992px) {
             .content {
                 font-size: 19pt;
@@ -785,7 +785,7 @@
                 width: 40px;
                 height: 40px;
             }
-        }
+        }*/
 
         /*--------------------Large monitors--------------------*/
         @media only screen and (min-width: 1200px) and (min-height: 1000px) {
@@ -864,7 +864,7 @@
             }
         }*/
 
-        /*--------------------Tablet resolution--------------------*/
+        /*--------------------Tablet resolution--------------------
         @media only screen and (min-width: 600px) and (max-width: 992px) {
             #footer {
                 display: flex;
@@ -874,7 +874,7 @@
                 text-align: center;
                 font-size: 20pt;
             }
-        }
+        }*/
 
         /*--------------------Large monitors--------------------*/
         @media only screen and (min-width: 1200px) and (min-height: 1000px) {
@@ -897,8 +897,8 @@
 
     <!--Render Scaling-->
     <style>
-        /*When the screen (browser window) gets smaller than 768px*/
-        @media only screen and (max-width: 768px) {
+        /* Extra small devices (phones, 600px and down) */
+        @media only screen and (max-width: 600px) and (orientation: portrait) {
             .gameTitle p {
                 font-size: 25pt;
             }
@@ -990,6 +990,166 @@
                 overflow: hidden;
             }
         }
+
+        /* Small devices (portrait tablets and large phones, 600px and up) */
+        @media only screen and (min-width: 600px) and (orientation: portrait) {
+            .slideshow-container {
+                width: 95.7%;
+                height: 100%;
+                margin-left: 1rem;
+            }
+
+            .gameInfo {
+                display: block;
+            }
+
+            #gameDownloadPanel {
+                position: relative;
+                display: block;
+                width: fit-content;
+                height: fit-content;
+                margin-right: 1rem;
+            }
+
+            #gameDownloadPanel p {
+                text-indent: 1rem;
+                padding-right: 1rem;
+                padding-left: 1rem;
+                font-size: 15pt;
+            }
+
+            .videoGermany iframe {
+                position: absolute;
+                height: 150%;
+                width: 100%;
+            }
+
+            .playButton {
+                display: none;
+            }
+
+            .content {
+                font-size: 19pt;
+                margin: 0;
+                padding: 0;
+                margin-top: 10rem;
+            }
+
+            .content p {
+                text-indent: 2.5rem;
+            }
+
+            .contacts {
+                display: block;
+                position: relative;
+                margin-bottom: 2rem;
+            }
+
+            #credits {
+                position: absolute;
+                margin-top: 8rem;
+                width: 100%;
+                height: fit-content;
+            }
+
+            .contacts img {
+                width: 40px;
+                height: 40px;
+            }
+
+            #footer {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+                text-align: center;
+                font-size: 20pt;
+            }
+        }
+
+        /* Medium devices (landscape tablets, 768px and up) */
+        @media only screen and (min-width: 768px) {
+            .slideshow-container {
+                width: auto;
+                height: 100%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .gameInfo {
+                display: block;
+            }
+
+            #gameDownloadPanel {
+                position: relative;
+                display: block;
+                width: fit-content;
+                height: fit-content;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            #gameDownloadPanel p {
+                text-indent: 1rem;
+                padding-right: 1rem;
+                padding-left: 1rem;
+                font-size: 15pt;
+            }
+
+            .videoGermany iframe {
+                position: absolute;
+                height: 250%;
+                width: 50%;
+            }
+
+            .playButton {
+                display: none;
+            }
+
+            .content {
+                font-size: 19pt;
+                margin: 0;
+                padding: 0;
+                margin-top: 10rem;
+            }
+
+            .content p {
+                text-indent: 2.5rem;
+            }
+
+            .contacts {
+                display: block;
+                position: relative;
+                margin-bottom: 2rem;
+            }
+
+            #credits {
+                position: absolute;
+                margin-top: 8rem;
+                width: 100%;
+                height: fit-content;
+            }
+
+            .contacts img {
+                width: 40px;
+                height: 40px;
+            }
+
+            #footer {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+                text-align: center;
+                font-size: 20pt;
+            }
+        }
+
+        /* Large devices (laptops/desktops, 992px and up) */
+        @media only screen and (min-width: 992px) {}
+
+        /* Extra large devices (large laptops and desktops, 1200px and up) */
+        @media only screen and (min-width: 1200px) {}
     </style>
 
 </body>
