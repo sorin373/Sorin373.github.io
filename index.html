@@ -1159,18 +1159,22 @@
         /* Large devices (laptops/desktops, 992px and up) */
         @media only screen and (min-width: 992px) {
             #credits {
-                position: absolute;
-                margin-top: 22rem;
-                width: 100%;
+                position: relative;
+                margin-top: 0;
+                width: fit-content;
                 height: fit-content;
+                margin-left: auto;
+                margin-right: auto;
             }
 
             .playButton {
                 display: flex;
-                position: absolute;
-                margin-top: 15.5rem;
-                right: 2rem;
-                width: 95%;
+                position: relative;
+                margin-top: 31rem;
+                width: 55%;
+                height: fit-content;
+                margin-left: auto;
+                margin-right: auto;
             }
 
             .playButton button {
@@ -1188,11 +1192,7 @@
         }
 
         /* Extra large devices (large laptops and desktops, 1200px and up) */
-        @media only screen and (min-width: 1200px) {
-            .playButton {
-                display: flex;
-            }
-        }
+        @media only screen and (min-width: 1200px) {}
     </style>
 
 </body>
