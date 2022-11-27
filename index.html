@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="icon.png">
-    <!--<link rel="manifest" href="manifest.json" crossorigin="use-credentials">-->
+    <link rel="icon" href="icon.png" crossorigin="use-credentials">
+    <link rel="manifest" href="manifest.json" crossorigin="use-credentials">
     <title>#Everygamercounts</title>
 
     <style>
@@ -149,12 +149,12 @@
             text-transform: uppercase;
         }
 
-        /*--------------------Large monitors--------------------*/
+        /*--------------------Large monitors--------------------
         @media only screen and (min-width: 1200px) and (min-height: 1000px) {
             .gameTitle p {
                 font-size: 100pt;
             }
-        }
+        }*/
     </style>
 
     <div class="content">
@@ -352,29 +352,15 @@
                 }
             }
 
-            /*--------------------Large monitors--------------------*/
+            /*--------------------Large monitors--------------------
             @media only screen and (min-width: 1200px) and (min-height: 1000px) {
                 .slideshow-container {
                     width: fit-content;
                     height: fit-content;
                 }
-            }
+            }*/
 
-            /*Iphone XR*/
-            @media screen and (width: 414px) and (height: 896px) {
-                #gameDownloadPanel {
-                    top: 14rem;
-                }
-            }
-
-            /*Samsung S20 Ultra*/
-            @media screen and (width: 412px) and (height: 915px) {
-                #gameDownloadPanel {
-                    top: 15rem;
-                }
-            }
-
-            /*--------------------Large monitors--------------------*/
+            /*--------------------Large monitors--------------------
             @media only screen and (min-width: 1200px) and (min-height: 1000px) {
                 .gameInfo {
                     margin-bottom: 42rem;
@@ -395,7 +381,7 @@
                     right: 50%;
                     margin-top: 4rem;
                 }
-            }
+            }*/
         </style>
 
         <script type="text/javascript">
@@ -942,7 +928,7 @@
             .playButton {
                 display: flex;
                 position: relative;
-                margin-top: 31rem;
+                margin-top: 25rem;
                 width: 55%;
                 height: fit-content;
                 margin-left: auto;
@@ -965,6 +951,20 @@
 
         /* Extra large devices (large laptops and desktops, 1200px and up) */
         @media only screen and (min-width: 1200px) {}
+
+        /*Iphone XR*/
+        @media screen and (width: 414px) and (height: 896px) {
+            #gameDownloadPanel {
+                top: 14rem;
+            }
+        }
+
+        /*Samsung S20 Ultra*/
+        @media screen and (width: 412px) and (height: 915px) {
+            #gameDownloadPanel {
+                top: 15rem;
+            }
+        }
     </style>
 
 </body>
