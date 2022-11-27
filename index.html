@@ -1146,10 +1146,35 @@
         }
 
         /* Large devices (laptops/desktops, 992px and up) */
-        @media only screen and (min-width: 992px) {}
+        @media only screen and (min-width: 992px) {
+            #credits {
+                position: absolute;
+                margin-top: 13rem;
+                width: 100%;
+                height: fit-content;
+            }
+
+            .playButton {
+                display: flex;
+                position: absolute;
+                margin-top: 6rem;
+                
+                right: 2rem;
+                width: 95%;
+            }
+
+            .playButton button{
+                align-items: center;
+                justify-content: center;
+            }
+        }
 
         /* Extra large devices (large laptops and desktops, 1200px and up) */
-        @media only screen and (min-width: 1200px) {}
+        @media only screen and (min-width: 1200px) {
+            .playButton {
+                display: flex;
+            }
+        }
     </style>
 
 </body>
