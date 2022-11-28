@@ -14,7 +14,7 @@
     <div class="playButton">
       <button role="button" onclick="window.location.href  = '/index.html'">Back</button>
     </div>
-
+  
     <style>
       .playButton {
         margin: 0;
@@ -22,7 +22,7 @@
         width: 100%;
         height: fit-content;
       }
-
+  
       .playButton button {
         align-items: center;
         background-color: rgb(234, 191, 138);
@@ -54,7 +54,7 @@
         font-weight: 500;
         letter-spacing: 10px;
       }
-
+  
       .playButton button::after {
         background-color: #111;
         border-radius: 8px;
@@ -69,27 +69,35 @@
         transition: transform .2s ease-out;
         z-index: -1;
       }
-
+  
       .playButton button:hover:after {
         transform: translate(0, 0);
       }
-
+  
       .playButton button:active {
         background-color: #ffdeda;
         outline: 0;
       }
-
+  
       .playButton button:hover {
         outline: 0;
       }
-
-      @media (min-width: 768px) {
+  
+      @media only screen and (min-width: 768px) {
         .playButton button {
           padding: 0 40px;
         }
       }
+  
+      @media only screen and (max-width: 1730px) {
+        .playButton button {
+          font-size: 30pt;
+          letter-spacing: 5px;
+        }
+      }
+  
     </style>
-  </div>
+
   <div id="unity-container" class="unity-desktop">
     <canvas id="unity-canvas" width=960 height=600></canvas>
     <div id="unity-loading-bar">
@@ -104,6 +112,7 @@
       <div id="unity-build-title">Different Breed</div>
     </div>
   </div>
+  
   <script>
     var container = document.querySelector("#unity-container");
     var canvas = document.querySelector("#unity-canvas");
