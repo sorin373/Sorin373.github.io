@@ -359,9 +359,6 @@ a:hover {
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) and (orientation: landscape){
-    #footer {
-        grid-row: 5;
-    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
