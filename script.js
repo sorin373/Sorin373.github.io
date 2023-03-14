@@ -1,7 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
     let slideIndex = 0;
     showSlides();
-
     function showSlides() {
         let i;
         let slides = document.getElementsByClassName("mySlides");
@@ -13,8 +12,6 @@ document.addEventListener('DOMContentLoaded', function () {
             slideIndex = 1
         }
         slides[slideIndex - 1].style.display = "block";
-        // Change image every 5 seconds
-        setTimeout(showSlides, 5000);
+        setTimeout(showSlides, 3000); // Change image every 5 seconds
     }
-
 }, false);
