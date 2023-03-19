@@ -227,7 +227,6 @@ a:hover {
     color: rgb(54, 54, 54);
     border-style: none;
     text-transform: uppercase;
-    font-family: cursive;
 }
 
 #playButton button:active {
