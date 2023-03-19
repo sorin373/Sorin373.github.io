@@ -284,17 +284,22 @@ a:hover {
         grid-column: 1;
     }
 
+    #gameDownloadPanel {
+        grid-column: 1;
+        grid-row: 3;
+    }
+
     #content p {
         font-size: 15px;
     }
 
     #videoGermany {
-        grid-row: 3;
+        grid-row: 4;
         grid-column: 1;
     }
 
     #credits-container {
-        grid-row: 4;
+        grid-row: 5;
         grid-column: 1;
         font-size: 15pt;
         padding: 0;
@@ -313,10 +318,16 @@ a:hover {
         font-size: 15pt;
     }
 
+    #playButton {
+        grid-row: 6;
+        grid-column: 1;
+    }
+
     #footer {
-        grid-row: 5;
+        grid-row: 7;
         grid-column: 1;
         font-size: 10px;
+        height: fit-content;
         margin: 0;
     }
 
@@ -324,31 +335,24 @@ a:hover {
         font-size: 10px;
     }
 
-    #gameDownloadPanel {
-        display: none;
-    }
-
     .slideshow-container {
-        display: none;
-    }
-
-    #playButton {
         display: none;
     }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) and (orientation: portrait) {
-    #playButton {
-        display: none;
-    }
 
     #gameTitle p{
         font-size: 30pt;
     }
+
+    #playButton {
+        grid-row: 5;
+    }
     
     #footer {
-        grid-row: 5;
+        grid-row: 6;
         font-size: 15pt;
     }
 
