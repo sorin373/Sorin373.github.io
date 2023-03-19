@@ -11,50 +11,36 @@
 
 <body>
   <div>
-    <div class="playButton">
+    <div id="playButton">
       <button role="button" onclick="window.location.href  = '/index.html'">Back</button>
     </div>
 
     <style>
-      .playButton {
+      #playButton {
         margin: 1rem;
         padding: 1rem;
       }
 
-      .playButton button {
+      #playButton button {
         background-color: rgb(234, 191, 138);
         border-radius: 10px;
-        font-size: 45pt;
+        font-size: 40pt;
         text-align: center;
-        width: fit-content;
+        width: auto;
         height: auto;
         font-weight: 600;
         color: rgb(54, 54, 54);
         border-style: none;
         text-transform: uppercase;
-        font-family: cursive;
       }
 
-      .playButton button:active {
+      #playButton button:active {
         background-color: #ffdeda;
       }
 
-      .playButton button:hover {
+      #playButton button:hover {
         cursor: pointer;
         background-color: rgb(219, 187, 147);
-      }
-
-      @media only screen and (min-width: 768px) {
-        .playButton button {
-          padding: 0 40px;
-        }
-      }
-
-      @media only screen and (max-width: 1730px) {
-        .playButton button {
-          font-size: 30pt;
-          letter-spacing: 5px;
-        }
       }
     </style>
 

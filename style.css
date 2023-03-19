@@ -3,12 +3,12 @@ main {
     margin: 0;
     padding: 0;
     width: 100%;
+    max-width: 100%;
     height: 100%;
     background-color: bisque;
     color: rgb(54, 54, 54);
     cursor: default;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    max-width: 100%;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -222,7 +222,7 @@ a:hover {
     font-size: 45pt;
     text-align: center;
     width: 100%;
-    height: 5rem;
+    height: auto;
     font-weight: 600;
     color: rgb(54, 54, 54);
     border-style: none;
