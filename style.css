@@ -353,7 +353,7 @@ a:hover {
     }
 
     #gameTitle p {
-        font-size: 30pt;
+        font-size: 20pt;
     }
 
     #content {
@@ -366,30 +366,45 @@ a:hover {
         grid-row: 3;
     }
 
+    #gameDownloadPanel p {
+        font-size: 10pt;
+    }
+
     #content p {
-        font-size: 15pt;
+        font-size: 10pt;
+        padding: 1rem;
     }
 
     #videoGermany {
         grid-row: 4;
         grid-column: 1;
-        height: 200px;
+        height: 150px;
     }
 
     #credits-container {
         grid-row: 5;
         grid-column: 1;
-        font-size: 15pt;
         padding: 0;
         padding-bottom: 1rem;
     }
 
-    #creditsTitle p{
-        font-size: 20pt;
+    #creditsTitle p {
+        font-size: 15pt;
+        padding: 5px;
     }
 
-    #creditsContent p{
-        font-size: 15pt;
+    #creditsContent p {
+        font-size: 10pt;
+        padding: 0.5rem;
+    }
+
+    .link {
+        font-size: 10pt;
+    }
+
+    #contact {
+        margin: 0;
+        padding-bottom: 0;
     }
 
     #contact p{
@@ -399,6 +414,11 @@ a:hover {
     #playButton {
         grid-row: 6;
         grid-column: 1;
+    }
+
+    #playButton button{
+        font-size: 30pt;
+        height: 100%;
     }
 
     #footer {
