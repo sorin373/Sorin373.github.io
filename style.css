@@ -307,14 +307,10 @@ a:hover {
     text-transform: uppercase;
 }
 
-#playButton button:active {
-    color: white;
-    outline: 0;
-}
-
 #playButton button:hover {
     cursor: pointer;
     background-color: rgb(219, 187, 147);
+    transition: 100ms;
 }
 
 #footer {
