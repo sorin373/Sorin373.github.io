@@ -147,11 +147,11 @@ a:hover {
     grid-column: 1;
     grid-row: 3 / span 2;
     background-color: rgb(236, 205, 166);
+    border-radius: 10px;
 }
 
 #content p {
     padding: 2rem;
-    border-radius: 10px;
     font-size: 15pt;
     color: rgb(54, 54, 54);
     margin: 0;
