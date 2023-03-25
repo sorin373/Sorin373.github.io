@@ -146,12 +146,12 @@ a:hover {
     height: auto;
     grid-column: 1;
     grid-row: 3 / span 2;
+    background-color: rgb(236, 205, 166);
 }
 
 #content p {
     padding: 2rem;
     border-radius: 10px;
-    background-color: rgb(236, 205, 166);
     font-size: 15pt;
     color: rgb(54, 54, 54);
     margin: 0;
@@ -262,7 +262,7 @@ a:hover {
     margin-top: 0;
     margin-bottom: 0;
     padding: 1rem;
-    font-size: 17pt;
+    font-size: 15pt;
 }
 
 #contact {
@@ -353,7 +353,7 @@ a:hover {
     }
 
     #gameTitle p {
-        font-size: 20pt;
+        font-size: 30pt;
     }
 
     #content {
@@ -367,12 +367,13 @@ a:hover {
     }
 
     #content p {
-        font-size: 15px;
+        font-size: 15pt;
     }
 
     #videoGermany {
         grid-row: 4;
         grid-column: 1;
+        height: 200px;
     }
 
     #credits-container {
