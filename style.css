@@ -187,7 +187,7 @@ a:hover {
 .slideshow-container {
     grid-column: 1;
     grid-row: 2;
-    margin: 0rem 0rem 0rem 0rem;
+    margin: 0;
     padding: 0;
 }
 
@@ -198,22 +198,6 @@ a:hover {
 
 .mySlides {
     display: none;
-}
-
-.dot {
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-}
-
-.active,
-.dot:hover {
-    background-color: #717171;
 }
 
 .fade {
@@ -238,8 +222,7 @@ a:hover {
 }
 
 #creditsTitle {
-    border-bottom-style: solid;
-    border-width: 2px;
+    border-bottom: 2px;   
     background-color: rgb(209, 181, 146);
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
@@ -258,9 +241,7 @@ a:hover {
 }
 
 #creditsContent p {
-    margin: 1rem;
-    margin-top: 0;
-    margin-bottom: 0;
+    margin: 0rem 1rem;
     padding: 1rem;
     font-size: 15pt;
 }
@@ -268,9 +249,7 @@ a:hover {
 #contact {
     grid-column: 1;
     grid-row: 3;
-    margin: 1rem;
-    margin-top: 0;
-    margin-bottom: 0;
+    margin: 0rem 1rem;
     font-size: 15pt;
     padding: 1rem;
     padding-top: 0;
@@ -284,7 +263,7 @@ a:hover {
 
 .link {
     margin: 0;
-    padding: 0.5rem 0.5rem 1rem 1rem;
+    padding: 0.5rem 1rem;
 }
 
 #playButton {
@@ -295,16 +274,16 @@ a:hover {
 }
 
 #playButton button {
-    background-color: rgb(234, 191, 138);
     border-radius: 10px;
+    border-style: none;
     font-size: 45pt;
+    text-transform: uppercase;
     text-align: center;
     width: 100%;
     height: auto;
     font-weight: 600;
     color: rgb(54, 54, 54);
-    border-style: none;
-    text-transform: uppercase;
+    background-color: rgb(234, 191, 138);
 }
 
 #playButton button:hover {
