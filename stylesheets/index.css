@@ -8,7 +8,7 @@ main {
     background-color: bisque;
     color: rgb(54, 54, 54);
     cursor: default;
-    font-family: 'Your Cursive Font', cursive;
+    font-family: 'Helvetica', Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     scroll-behavior: smooth;
@@ -249,10 +249,9 @@ a:hover {
 }
 
 #contact {
-    margin: 0rem 1rem;
+    margin: 1rem;
     font-size: 15pt;
-    padding: 1rem;
-    padding-top: 0;
+    padding: 0.5rem;
 }
 
 #contact p {
