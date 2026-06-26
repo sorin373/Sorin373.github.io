@@ -1,8 +1,9 @@
-import createMDX from "@next/mdx";
+﻿import createMDX from "@next/mdx";
 import remarkGfm from "remark-gfm";
 
 const repoName = process.env.GITHUB_PAGES_REPO || "";
-const isGithubPages = process.env.DEPLOY_TARGET === "github-pages" && repoName.length > 0;
+const isUserSite = repoName.endsWith(".github.io");
+const needsBasePath = process.env.DEPLOY_TARGET === "github-pages" && repoName.length > 0 && !isUserSite;
 
 const withMDX = createMDX({
   extension: /\.mdx?$/,
@@ -15,8 +16,8 @@ const nextConfig = {
   trailingSlash: true,
   images: { unoptimized: true },
   pageExtensions: ["js", "jsx", "md", "mdx", "ts", "tsx"],
-  basePath: isGithubPages ? `/${repoName}` : undefined,
-  assetPrefix: isGithubPages ? `/${repoName}/` : undefined
+  basePath: needsBasePath ? `/${repoName}` : undefined,
+  assetPrefix: needsBasePath ? `/${repoName}/` : undefined
 };
 
 export default withMDX(nextConfig);
