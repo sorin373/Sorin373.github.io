@@ -1,9 +1,0 @@
-import { SectionHeader } from "@/components/ui/SectionHeader";
-import { siteConfig } from "@/config/site";
-import { pageMetadata } from "@/lib/metadata";
-
-export const metadata = pageMetadata("About", "Professional biography and engineering interests.", "/about");
-
-export default function AboutPage() {
-  return <section className="mx-auto max-w-6xl px-5 py-14"><SectionHeader eyebrow="About" title="Engineering biography" description={siteConfig.shortBio} /><div className="grid gap-8 lg:grid-cols-[1fr_0.8fr]"><div className="rounded-lg border border-slate-200 bg-white p-6"><h2 className="text-xl font-semibold text-slate-950">Professional approach</h2><p className="mt-4 leading-7 text-slate-600">This page uses realistic placeholder text. Replace it with specific examples from your university work, apprenticeships, documentation tasks, simulations, tests and design reviews. The tone is intentionally technical and evidence-oriented rather than generic.</p><p className="mt-4 leading-7 text-slate-600">I approach engineering work by clarifying requirements, documenting assumptions, selecting appropriate tools, and checking analytical models against trusted references or experiments wherever possible.</p></div><div className="rounded-lg border border-slate-200 bg-white p-6"><h2 className="text-xl font-semibold text-slate-950">Engineering interests</h2><div className="mt-4 flex flex-wrap gap-2">{siteConfig.engineeringInterests.map((interest) => <span key={interest} className="rounded border border-slate-200 px-2 py-1 text-sm text-slate-700">{interest}</span>)}</div></div></div></section>;
-}
